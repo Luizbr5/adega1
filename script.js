@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",function(){const a=document.getElementById("search-input");if(a){const b=document.querySelectorAll(".card");a.addEventListener("input",function(){const c=a.value.toLowerCase();b.forEach(a=>{const b=a.querySelector("h2").textContent.toLowerCase();a.style.display=b.includes(c)?"block":"none"})})}});
